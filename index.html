@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Mollebamba - Tesoro Andino | La Libertad</title>
+    <meta property="og:title" content="Mollebamba - Tradición y Paisajes">
+    <meta property="og:description" content="Descubre el encanto de nuestro distrito, sus danzas, platos y gente cálida.">
+    <meta property="og:image" content="imagenes/logo-mollebamba.gif">
+    <link rel="icon" type="image/gif" href="imagenes/logo-mollebamba.gif">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button id="btn-arriba" title="Volver arriba"><i class="fas fa-arrow-up"></i></button>
+    <header>
+        <div class="header-contenido">
+            <img src="imagenes/logo-mollebamba.gif" alt="Escudo Mollebamba" class="logo-escudo">
+            <h1>MOLLEBAMBA</h1>
+            <p>Llanura del Molle · Corazón de la Libertad</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="menu-icon"><i class="fas fa-bars"></i></div>
+        <div class="nav-links">
+            <a href="#historia">Historia</a>
+            <a href="#tradiciones">Tradiciones</a>
+            <a href="#danzas">Danzas</a>
+            <a href="#gastronomia">Gastronomía</a>
+            <a href="#galeria">Galería</a>
+            <a href="#mapa">Ubicación</a>
+            <a href="#calendario">Calendario</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- HISTORIA -->
+        <section id="historia">
+            <h2>Historia Viva</h2>
+            <div class="grid-2cols">
+                <div>
+                    <p>Mollebamba, que en quechua significa "Llanura del Molle", fue fundado el 3 de agosto de 1920. Antiguo paso del camino inca, aquí tuvo lugar un hecho crucial: el asesinato del inca Huáscar, marcando el fin de la guerra civil incaica. Sus calles guardan el eco de nuestros antepasados y su devoción por la tierra.</p>
+                    <p>Hoy, el distrito es un referente de identidad cultural en la provincia de Santiago de Chuco. Sus terrazas y restos arqueológicos son testimonio de un glorioso pasado.</p>
+                </div>
+                <div><img src="imagenes/paisaje_mollebamba.jpg" alt="Paisaje histórico" style="border-radius: 1.5rem; width:100%"></div>
+            </div>
+        </section>
+
+        <!-- TRADICIONES -->
+        <section id="tradiciones" class="bg-alternativo">
+            <h2>Tradiciones que perduran</h2>
+            <p>La festividad de la Virgen del Carmen (16 de julio) y el Señor de la Misericordia (14 de septiembre) son las más representativas. Durante estas fechas, el pueblo se llena de danzantes, bandas de músicos, castillos y la tradicional "corte de pelo" al mayordomo, un acto de agradecimiento y fe.</p>
+            <div id="tradiciones-container" class="grid-2cols"></div>
+        </section>
+
+        <!-- DANZAS -->
+        <section id="danzas">
+            <h2>Danzas Típicas</h2>
+            <div id="danzas-container" class="grid-3cols"></div>
+        </section>
+
+        <!-- GASTRONOMÍA -->
+        <section id="gastronomia" class="bg-alternativo">
+            <h2>Sabores de Mollebamba</h2>
+            <div id="platos-container" class="grid-3cols"></div>
+        </section>
+
+        <!-- GALERÍA DINÁMICA -->
+        <section id="galeria">
+            <h2>Galería de imágenes</h2>
+            <div id="galeria-container" class="galeria-contenedor"></div>
+        </section>
+
+        <!-- MAPA -->
+        <section id="mapa" class="bg-alternativo">
+            <h2>¿Cómo llegar?</h2>
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.7484149284927!2d-78.123456!3d-7.987654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b3f4c2d5e6a8b7%3A0x3f8e2d1c0b5a7e9d!2sMollebamba!5e0!3m2!1ses!2spe!4v1690000000000!5m2!1ses!2spe" allowfullscreen loading="lazy"></iframe>
+            </div>
+            <p>Desde Trujillo: 4 horas por carretera afirmada. Desde Santiago de Chuco: 1.5 horas en auto.</p>
+        </section>
+
+        <!-- CLIMA -->
+        <section>
+            <h2>Clima</h2>
+            <p>Templado y seco, con lluvias de diciembre a marzo. Temperatura promedio: 15°C. Visita de abril a noviembre para días soleados.</p>
+            <div style="background: var(--gris-claro); border-radius: 1rem; padding: 1rem; text-align: center;">🌡️ 12°C - 22°C</div>
+        </section>
+
+        <!-- CALENDARIO DE FESTIVIDADES (dinámico) -->
+        <section id="calendario" class="bg-alternativo">
+            <h2>Calendario de festividades</h2>
+            <div id="calendario-container" class="calendario"></div>
+        </section>
+
+        <!-- AUTORIDADES -->
+        <section>
+            <h2>Autoridades y contacto</h2>
+            <div class="grid-2cols">
+                <div>
+                    <p><strong>Alcalde actual:</strong> Oscar Paredes Narváez (2023-2026)</p>
+                    <p><i class="fas fa-phone"></i> Municipalidad: (044) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> municipalidad@mollebamba.gob.pe</p>
+                    <a href="https://wa.me/51987654321" class="btn" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp turístico</a>
+                </div>
+                <div>
+                    <p><strong>Oficina de turismo:</strong> Jr. Independencia s/n (Plaza de Armas)</p>
+                    <p>Horario: Lun-Vie 8am-3pm</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ARTESANÍAS -->
+        <section class="bg-alternativo">
+            <h2>Artesanías locales</h2>
+            <div id="artesanias-container" class="grid-3cols"></div>
+        </section>
+
+        <!-- VIDEOS -->
+        <section>
+            <h2>Vive Mollebamba en video</h2>
+            <div style="display: flex; justify-content: center;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_EJEMPLO" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 1.5rem; width:100%; max-width: 560px;"></iframe>
+            </div>
+            <p style="text-align: center;">Próximamente, el documental de nuestras costumbres.</p>
+        </section>
+
+        <!-- LEYENDAS -->
+        <section class="bg-alternativo">
+            <h2>Leyendas de Mollebamba</h2>
+            <div class="card" style="background: var(--lavanda); color: white; border: none;">
+                <h3>El Duende de la Acequia</h3>
+                <p>Cuentan los abuelos que al atardecer, un duende pequeño con sombrero de paja protege las acequias. Si le ofreces un puñado de maíz, te guiará hacia una veta de agua escondida. Nunca le grites, porque desaparece con las cosechas.</p>
+            </div>
+        </section>
+
+        <!-- TESTIMONIOS -->
+        <section>
+            <h2>Lo que dicen nuestros visitantes</h2>
+            <div id="testimonios-container" class="grid-2cols"></div>
+        </section>
+
+        <!-- DATOS PRÁCTICOS -->
+        <section class="bg-alternativo">
+            <h2>Datos prácticos para el viajero</h2>
+            <ul style="list-style: none; display: flex; flex-wrap: wrap; gap: 1rem;">
+                <li><i class="fas fa-bed"></i> Hospedaje: "Casa de la Abuela" (contacto: 987654321)</li>
+                <li><i class="fas fa-umbrella"></i> Llevar: protector solar, abrigo, botas para lluvia</li>
+                <li><i class="fas fa-phone-alt"></i> Emergencias: Policía 105, Puesto de Salud (044) 123-111</li>
+            </ul>
+        </section>
+
+        <!-- CONTACTO -->
+        <section id="contacto">
+            <h2>¿Quieres visitarnos? Escríbenos</h2>
+            <form action="https://formspree.io/f/tuformulario" method="POST">
+                <input type="text" name="nombre" placeholder="Tu nombre" required>
+                <input type="email" name="email" placeholder="Correo electrónico" required>
+                <textarea name="mensaje" rows="4" placeholder="Cuéntanos qué te gustaría saber sobre Mollebamba..."></textarea>
+                <button type="submit"><i class="fas fa-paper-plane"></i> Enviar mensaje</button>
+            </form>
+        </section>
+
+        <!-- SECCIÓN DE SERVICIOS TURÍSTICOS (datos estáticos) -->
+        <section id="servicios-turisticos" class="bg-alternativo">
+            <h2>✈️ Planifica tu Viaje: ¿Cómo llegar y contratar?</h2>
+            <p>Encuentra aquí los atractivos turísticos de Mollebamba y contacta directamente con los servicios de transporte que te llevarán a ellos. ¡Aventura y tradición te esperan!</p>
+            <div id="servicios-container" class="grid-2cols"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-contenido">
+            <div class="footer-col">
+                <h4>Mollebamba</h4>
+                <p>Distrito de Santiago de Chuco, La Libertad, Perú. Cuna de tradiciones y paisajes únicos.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Enlaces rápidos</h4>
+                <a href="#historia">Historia</a><br>
+                <a href="#tradiciones">Tradiciones</a><br>
+                <a href="#danzas">Danzas</a><br>
+                <a href="#contacto">Contacto</a>
+            </div>
+            <div class="footer-col">
+                <h4>Síguenos</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=61552578162397" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p><i class="fas fa-leaf"></i> 2026 - Proyecto Mollebamba | Diseñado por Luis Ramos Castillo <i class="fas fa-heart" style="color: var(--dorado);"></i></p>
+            <p>Instituto Simón Sánchez Reyes</p>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>
